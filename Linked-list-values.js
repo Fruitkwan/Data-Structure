@@ -16,11 +16,11 @@ a.next = b;
 b.next = c;
 c.next = d; // d is the last node
 
-
+// iterative solution
 const printLinkedList = (head) => {
     let current = head;
     while(current !== null){
-        console.log('Normal call', current.value);
+        console.log('Iterative call', current.value);
         current = current.next;
     }
 }

@@ -1,0 +1,3 @@
+n = # of nodes in the linked list
+Time complexity = O(n)
+Space complexity = O(n)
